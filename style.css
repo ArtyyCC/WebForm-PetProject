@@ -1,0 +1,164 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(./font/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(./font/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  border: 3px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cfdbe4;
+  background-image: url("img/Frame\ 3853.png");
+  background-position: center center;
+  background-size: 100%;
+
+}
+
+.content-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 912px;
+  width: 1440px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 75%, rgba(109, 225, 194, 1) 75%, rgba(109, 225, 194, 1) 100%);
+  border-radius: 50px;
+  padding: 51px 92px;
+  box-shadow: 0px 141px 200px -80px rgba(25, 58, 75, 0.30);
+}
+
+.registration-form__user-data {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.registration-form__input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.registration-form__text-logo {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: semi-bold;
+  line-height: 24px;
+  letter-spacing: 0.46px;
+}
+
+.registration-form__text-description {
+  max-width: 545px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: regular;
+  line-height: 24px;
+  letter-spacing: 0.14px;
+}
+
+.light-yellow-text {
+  color: #6DE1C2;
+}
+
+.registration-form__contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.registration-form__input {
+  height: 55px;
+  padding: 12px 0px;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid #737B7D;
+}
+
+.registration-form__input-text {
+  color: #8E8E8E;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px;
+  letter-spacing: 0.5px;
+}
+
+.registration-form__container-postcode-city {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.registration-form__input-file {
+  max-width: 548px;
+  display: flex;
+  padding: 40px 16px;
+  border: 1px dashed black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registration-form__submit-button {
+  border-radius: 10px;
+  padding: 16px 0px;
+  background: #0982FE;
+  outline: 0;
+  border: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22.4px
+}
+
+.registration-form__text-load-description {
+  max-width: 545px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: regular;
+  line-height: 24px;
+  letter-spacing: 0.14px;
+}
+
+.registration-form__apply-button-section {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.registration-form__apply-text {
+  display: block;
+  color: #383C3E;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: 0.5px;
+}
